@@ -6,5 +6,5 @@
   "item.additional_ores.iridium": "Iridium Ingot",
   "item.additional_ores.raw_iridium": "Raw Iridium",
 
-  "itemgroup.iridium": "Iridium Group"
+  "itemgroup.additional_ores_group": "Additional Ores"
 }
