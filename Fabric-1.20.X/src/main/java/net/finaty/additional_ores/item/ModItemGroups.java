@@ -15,6 +15,10 @@ public class ModItemGroups {
             new Identifier(AdditionalOres.MOD_ID, "iridium"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.iridium"))
                     .icon(() -> new ItemStack(ModItems.IRIDIUM)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.TITAN);
+                        entries.add(ModItems.RAW_TITAN);
+                        entries.add(ModItems.COBALT);
+                        entries.add(ModItems.RAW_COBALT);
                         entries.add(ModItems.IRIDIUM);
                         entries.add(ModItems.RAW_IRIDIUM);
 

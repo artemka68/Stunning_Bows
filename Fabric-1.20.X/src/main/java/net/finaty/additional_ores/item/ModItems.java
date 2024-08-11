@@ -11,10 +11,18 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
+    public static final Item TITAN = registerItem("titan", new Item(new FabricItemSettings()));
+    public static final Item RAW_TITAN = registerItem("raw_titan", new Item(new FabricItemSettings()));
+    public static final Item COBALT = registerItem("cobalt", new Item(new FabricItemSettings()));
+    public static final Item RAW_COBALT = registerItem("raw_cobalt", new Item(new FabricItemSettings()));
     public static final Item IRIDIUM = registerItem("iridium", new Item(new FabricItemSettings()));
     public static final Item RAW_IRIDIUM = registerItem("raw_iridium", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
+        entries.add(TITAN);
+        entries.add(RAW_TITAN);
+        entries.add(COBALT);
+        entries.add(RAW_COBALT);
         entries.add(IRIDIUM);
         entries.add(RAW_IRIDIUM);
     }

@@ -1,4 +1,8 @@
 {
+  "item.additional_ores.titan": "Titan Ingot",
+  "item.additional_ores.raw_titan": "Raw Titan",
+  "item.additional_ores.cobalt": "Cobalt Ingot",
+  "item.additional_ores.raw_cobalt": "Raw Cobalt",
   "item.additional_ores.iridium": "Iridium Ingot",
   "item.additional_ores.raw_iridium": "Raw Iridium",
 
