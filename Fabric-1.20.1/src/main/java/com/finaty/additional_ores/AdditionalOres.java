@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 
 public class AdditionalOres implements ModInitializer {
 	public static final String MOD_ID = "additional_ores";
-    public static final Logger LOGGER = LoggerFactory.getLogger("additional-ores");
+    public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
 	public void onInitialize() {

@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "additional-ores",
+	"id": "additional_ores",
 	"version": "${version}",
 	"name": "Additional Ores",
 	"description": "This is an example description! Tell everyone what your mod is about!",
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/additional-ores/icon.png",
+	"icon": "assets/additional_ores/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -26,7 +26,7 @@
 		]
 	},
 	"mixins": [
-		"additional-ores.mixins.json"
+		"additional_ores.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
