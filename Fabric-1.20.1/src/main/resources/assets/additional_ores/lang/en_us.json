@@ -1,0 +1,17 @@
+{
+  "item.additional_ores.cosmic_ingot": "Cosmic Ingot",
+  "item.additional_ores.cosmic_fragment": "Cosmic Fragment",
+  "item.additional_ores.cosmic_stick": "Cosmic Stick",
+  "item.additional_ores.raw_titan": "Raw Titan",
+  "item.additional_ores.titan": "Titan Ingot",
+  "item.additional_ores.raw_cobalt": "Raw Cobalt",
+  "item.additional_ores.cobalt": "Cobalt Ingot",
+  "item.additional_ores.raw_iridium": "Raw Iridium",
+  "item.additional_ores.iridium": "Iridium Ingot",
+  "item.additional_ores.obsidian_stick": "Obsidian Stick",
+  "item.additional_ores.obsidian_nugget": "Obsidian Nugget",
+  "item.additional_ores.cosmic_dust": "Cosmic Dust",
+
+
+  "itemgroup.iridium": "Additional Ores"
+}
