@@ -18,6 +18,13 @@ public class ModItems {
     public static final Item IRIDIUM = registerItem("iridium", new Item(new FabricItemSettings()));
     public static final Item RAW_IRIDIUM = registerItem("raw_iridium", new Item(new FabricItemSettings()));
 
+    public static final Item OBSIDIAN_STICK = registerItem("obsidian_stick", new Item(new FabricItemSettings()));
+    public static final Item OBSIDIAN_NUGGET = registerItem("obsidian_nugget", new Item(new FabricItemSettings()));
+    public static final Item COSMIC_DUST = registerItem("cosmic_dust", new Item(new FabricItemSettings()));
+    public static final Item COSMIC_INGOT = registerItem("cosmic_ingot", new Item(new FabricItemSettings()));
+    public static final Item COSMIC_STICK = registerItem("cosmic_stick", new Item(new FabricItemSettings()));
+    public static final Item COSMIC_FRAGMENT = registerItem("cosmic_fragment", new Item(new FabricItemSettings()));
+
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(TITAN);
         entries.add(RAW_TITAN);
@@ -25,6 +32,13 @@ public class ModItems {
         entries.add(RAW_COBALT);
         entries.add(IRIDIUM);
         entries.add(RAW_IRIDIUM);
+
+        entries.add(OBSIDIAN_STICK);
+        entries.add(OBSIDIAN_NUGGET);
+        entries.add(COSMIC_DUST);
+        entries.add(COSMIC_INGOT);
+        entries.add(COSMIC_STICK);
+        entries.add(COSMIC_FRAGMENT);
     }
 
     private static Item registerItem(String name, Item item) {

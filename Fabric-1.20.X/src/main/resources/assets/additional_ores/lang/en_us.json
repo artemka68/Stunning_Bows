@@ -6,5 +6,26 @@
   "item.additional_ores.iridium": "Iridium Ingot",
   "item.additional_ores.raw_iridium": "Raw Iridium",
 
+  "item.additional_ores.obsidian_stick": "Obsidian Stick",
+  "item.additional_ores.obsidian_nugget": "Obsidian Nugget",
+  "item.additional_ores.cosmic_dust": "Cosmic Dust",
+  "item.additional_ores.cosmic_ingot": "Cosmic Ingot",
+  "item.additional_ores.cosmic_fragment": "Cosmic Fragment",
+  "item.additional_ores.cosmic_stick": "Cosmic Stick",
+
+  "block.additional_ores.titan_block": "Block of Titan",
+  "block.additional_ores.titan_ore": "Titan Ore",
+  "block.additional_ores.deepslate_titan_ore": "Deepslate Titan Ore",
+  "block.additional_ores.cobalt_block": "Block of Cobalt",
+  "block.additional_ores.cobalt_ore": "Cobalt Ore",
+  "block.additional_ores.deepslate_cobalt_ore": "Deepslate Cobalt Ore",
+  "block.additional_ores.iridium_block": "Block of Iridium",
+  "block.additional_ores.iridium_ore": "Iridium Ore",
+  "block.additional_ores.deepslate_iridium_ore": "Deepslate Iridium Ore",
+  "block.additional_ores.nether_cosmic_dust_ore": "Nether Cosmic Dust Ore",
+  "block.additional_ores.endstone_cosmic_fragment_ore": "Endstone Cosmic Fragment Ore",
+  "block.additional_ores.cosmic_dust_block": "Block of Cosmic Dust",
+  "block.additional_ores.block_of_cosmic_ingots": "Block of Cosmic Ingots",
+
   "itemgroup.additional_ores_group": "Additional Ores"
 }
