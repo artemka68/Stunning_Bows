@@ -43,6 +43,44 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ENDSTONE_COSMIC_FRAGMENT_ORE);
                         entries.add(ModBlocks.BLOCK_OF_COSMIC_INGOTS);
 
+                        entries.add(ModItems.COSMIC_SWORD);
+                        entries.add(ModItems.COSMIC_AXE);
+                        entries.add(ModItems.COSMIC_PICKAXE);
+                        entries.add(ModItems.COSMIC_SHOVEL);
+                        entries.add(ModItems.COSMIC_HOE);
+                        entries.add(ModItems.TITAN_SWORD);
+                        entries.add(ModItems.TITAN_AXE);
+                        entries.add(ModItems.TITAN_PICKAXE);
+                        entries.add(ModItems.TITAN_SHOVEL);
+                        entries.add(ModItems.TITAN_HOE);
+                        entries.add(ModItems.COBALT_SWORD);
+                        entries.add(ModItems.COBALT_AXE);
+                        entries.add(ModItems.COBALT_PICKAXE);
+                        entries.add(ModItems.COBALT_SHOVEL);
+                        entries.add(ModItems.COBALT_HOE);
+                        entries.add(ModItems.IRIDIUM_SWORD);
+                        entries.add(ModItems.IRIDIUM_AXE);
+                        entries.add(ModItems.IRIDIUM_PICKAXE);
+                        entries.add(ModItems.IRIDIUM_SHOVEL);
+                        entries.add(ModItems.IRIDIUM_HOE);
+
+                        entries.add(ModItems.COSMIC_HELMET);
+                        entries.add(ModItems.COSMIC_CHESTPLATE);
+                        entries.add(ModItems.COSMIC_LEGGINGS);
+                        entries.add(ModItems.COSMIC_BOOTS);
+                        entries.add(ModItems.TITAN_HELMET);
+                        entries.add(ModItems.TITAN_CHESTPLATE);
+                        entries.add(ModItems.TITAN_LEGGINGS);
+                        entries.add(ModItems.TITAN_BOOTS);
+                        entries.add(ModItems.COBALT_HELMET);
+                        entries.add(ModItems.COBALT_CHESTPLATE);
+                        entries.add(ModItems.COBALT_LEGGINGS);
+                        entries.add(ModItems.COBALT_BOOTS);
+                        entries.add(ModItems.IRIDIUM_HELMET);
+                        entries.add(ModItems.IRIDIUM_CHESTPLATE);
+                        entries.add(ModItems.IRIDIUM_LEGGINGS);
+                        entries.add(ModItems.IRIDIUM_BOOTS);
+
 
                     }).build());
 

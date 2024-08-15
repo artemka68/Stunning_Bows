@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "additional_ores:cosmic_stick"
+    },
+    "X": {
+      "item": "additional_ores:cosmic_ingot"
+    }
+  },
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "item": "additional_ores:cosmic_pickaxe"
+  }
+}

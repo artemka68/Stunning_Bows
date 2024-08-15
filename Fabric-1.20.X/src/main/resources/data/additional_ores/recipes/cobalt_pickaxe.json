@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "additional_ores:obsidian_stick"
+    },
+    "X": {
+      "item": "additional_ores:cobalt"
+    }
+  },
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "item": "additional_ores:cobalt_pickaxe"
+  }
+}
