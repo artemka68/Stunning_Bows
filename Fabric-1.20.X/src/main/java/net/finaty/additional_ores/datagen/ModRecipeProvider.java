@@ -84,6 +84,26 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.COSMIC_FRAGMENT), conditionsFromItem(ModItems.COSMIC_FRAGMENT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.COSMIC_INGOT)));
 
+        //OBSIDIAN_STICK
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.OBSIDIAN_STICK, 4)
+                .pattern("  S")
+                .pattern(" S ")
+                .pattern("S  ")
+                .input('S', ModItems.OBSIDIAN_NUGGET)
+                .criterion(hasItem(ModItems.OBSIDIAN_NUGGET), conditionsFromItem(ModItems.OBSIDIAN_NUGGET))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.OBSIDIAN_STICK)));
+
+        //COSMIC_STICK
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.COSMIC_STICK, 1)
+                .pattern(" S ")
+                .pattern("S#S")
+                .pattern(" S ")
+                .input('S', ModItems.COSMIC_DUST)
+                .input('#', ModItems.OBSIDIAN_STICK)
+                .criterion(hasItem(ModItems.COSMIC_DUST), conditionsFromItem(ModItems.COSMIC_DUST))
+                .criterion(hasItem(ModItems.OBSIDIAN_STICK), conditionsFromItem(ModItems.OBSIDIAN_STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.COSMIC_STICK)));
+
 //        //COSMIC_INGOTS_FROM_COSMIC_BLOCK
 //        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.COSMIC_INGOT, 9)
 //                .pattern("S")

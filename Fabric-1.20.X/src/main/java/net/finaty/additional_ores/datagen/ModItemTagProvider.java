@@ -17,7 +17,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.COSMIC_HELMET, ModItems.COSMIC_CHESTPLATE, ModItems.COSMIC_LEGGINGS, ModItems.COSMIC_BOOTS)
-                .add(ModItems.TITAN_HELMET, ModItems.TITAN_CHESTPLATE, ModItems.TITAN_LEGGINGS, ModItems.TITAN_BOOTS);
+                .add(ModItems.TITAN_HELMET, ModItems.TITAN_CHESTPLATE, ModItems.TITAN_LEGGINGS, ModItems.TITAN_BOOTS)
+                .add(ModItems.COBALT_HELMET, ModItems.COBALT_CHESTPLATE, ModItems.COBALT_LEGGINGS, ModItems.COBALT_BOOTS)
+                .add(ModItems.IRIDIUM_HELMET, ModItems.IRIDIUM_CHESTPLATE, ModItems.IRIDIUM_LEGGINGS, ModItems.IRIDIUM_BOOTS);
+
                
     }
 }

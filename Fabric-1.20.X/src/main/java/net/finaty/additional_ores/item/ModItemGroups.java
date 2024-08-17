@@ -15,7 +15,7 @@ public class ModItemGroups {
     public static final ItemGroup ADDITIONAL_ORES_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(AdditionalOres.MOD_ID, "additional_ores_group"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.additional_ores_group"))
-                    .icon(() -> new ItemStack(ModItems.IRIDIUM)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModItems.COSMIC_INGOT)).entries((displayContext, entries) -> {
                         entries.add(ModItems.TITAN);
                         entries.add(ModItems.RAW_TITAN);
                         entries.add(ModItems.COBALT);
@@ -80,7 +80,6 @@ public class ModItemGroups {
                         entries.add(ModItems.IRIDIUM_CHESTPLATE);
                         entries.add(ModItems.IRIDIUM_LEGGINGS);
                         entries.add(ModItems.IRIDIUM_BOOTS);
-
 
                     }).build());
 
