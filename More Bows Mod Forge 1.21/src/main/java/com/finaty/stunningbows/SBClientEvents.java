@@ -11,17 +11,27 @@ public class SBClientEvents {
     //Bow fov while pulling
     @SubscribeEvent
     public static void onComputerFovModifierEvent(ComputeFovModifierEvent event) {
-        if(event.getPlayer().isUsingItem() && event.getPlayer().getUseItem().getItem() == SBItems.NETHER_BOW.get()) {
-            float fovModifier = 1f;
-            int ticksUsingItem = event.getPlayer().getTicksUsingItem();
-            float deltaTicks = (float)ticksUsingItem / 20f;
-            if(deltaTicks > 1f) {
-                deltaTicks = 1f;
-            } else {
-                deltaTicks *= deltaTicks;
+        if(event.getPlayer().isUsingItem() && event.getPlayer().getUseItem().getItem() == SBItems.NETHER_BOW.get() ||
+                event.getPlayer().getUseItem().getItem() == SBItems.BONE_BOW.get() ||
+                    event.getPlayer().getUseItem().getItem() == SBItems.COPPER_BOW.get() ||
+                        event.getPlayer().getUseItem().getItem() == SBItems.GOLDEN_BOW.get()) {
+            float f = 1.0F;
+
+            //While flying
+            if (event.getPlayer().getAbilities().flying) {
+                f *= 1.1F;
             }
-            fovModifier *= 1f - deltaTicks * 0.15f;
-            event.setNewFovModifier(fovModifier);
+
+            int ticksUsingItem = event.getPlayer().getTicksUsingItem();
+            float f1 = (float)ticksUsingItem / 20.0F;
+            if(f1 > 1.0F) {
+                f1 = 1.0F;
+            } else {
+                f1 *= f1;
+            }
+            f *= 1.0F - f1 * 0.15F;
+            event.setNewFovModifier(f);
         }
     }
+
 }

@@ -24,7 +24,10 @@ public class SBCreativeModeTabs {
             .title(Component.translatable("creativetab.stunningbows.stunningbows"))
             .displayItems((parameters, output) -> {
                 // Add the example item to the tab. For your own tabs, this method is preferred over the event
+                output.accept(SBItems.BONE_BOW.get());
                 output.accept(SBItems.NETHER_BOW.get());
+                output.accept(SBItems.COPPER_BOW.get());
+                output.accept(SBItems.GOLDEN_BOW.get());
             }).build());
 
 

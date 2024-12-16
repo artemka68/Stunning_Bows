@@ -1,8 +1,9 @@
 package com.finaty.stunningbows.item;
 
 import com.finaty.stunningbows.StunningBows;
-import com.finaty.stunningbows.custom.FireBow;
-import net.minecraft.world.item.BowItem;
+import com.finaty.stunningbows.custom.BoneBow;
+import com.finaty.stunningbows.custom.CopperBow;
+import com.finaty.stunningbows.custom.NetherBow;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -20,7 +21,16 @@ public class SBItems {
 
     //List of items
     public static final RegistryObject<Item> NETHER_BOW = ITEMS.register("nether_bow",
-            () -> new BowItem(new Item.Properties().durability(durabilityOfBow)));
+            () -> new NetherBow(new Item.Properties().durability(durabilityOfBow)));
+
+    public static final RegistryObject<Item> BONE_BOW = ITEMS.register("bone_bow",
+            () -> new BoneBow(new Item.Properties().durability(durabilityOfBow + 30)));
+
+    public static final RegistryObject<Item> COPPER_BOW = ITEMS.register("copper_bow",
+            () -> new CopperBow(new Item.Properties().durability(durabilityOfBow + 50)));
+
+    public static final RegistryObject<Item> GOLDEN_BOW = ITEMS.register("golden_bow",
+            () -> new CopperBow(new Item.Properties().durability(durabilityOfBow + 50)));
 
 
 

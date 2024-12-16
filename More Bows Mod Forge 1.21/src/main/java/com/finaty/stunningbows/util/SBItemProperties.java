@@ -9,6 +9,9 @@ import net.minecraft.world.item.Items;
 public class SBItemProperties {
     public static void addItemProperties() {
         makeBow(SBItems.NETHER_BOW.get());
+        makeBow(SBItems.BONE_BOW.get());
+        makeBow(SBItems.COPPER_BOW.get());
+        makeBow(SBItems.GOLDEN_BOW.get());
     }
 
     private static void makeBow(Item item) {
