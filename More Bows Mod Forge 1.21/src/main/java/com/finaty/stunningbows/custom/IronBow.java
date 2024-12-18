@@ -13,11 +13,11 @@ import net.minecraft.world.level.Level;
 
 import java.util.List;
 
-public class BoneBow extends BowItem {
+public class IronBow extends BowItem {
     public static final int MAX_DRAW_DURATION = 20;
     public static final int DEFAULT_RANGE = 15;
 
-    public BoneBow(Item.Properties pProperties) {
+    public IronBow(Item.Properties pProperties) {
         super(pProperties);
     }
 

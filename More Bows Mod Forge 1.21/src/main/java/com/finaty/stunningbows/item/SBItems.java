@@ -32,6 +32,15 @@ public class SBItems {
     public static final RegistryObject<Item> GOLDEN_BOW = ITEMS.register("golden_bow",
             () -> new CopperBow(new Item.Properties().durability(durabilityOfBow + 50)));
 
+    public static final RegistryObject<Item> IRON_BOW = ITEMS.register("iron_bow",
+            () -> new CopperBow(new Item.Properties().durability(durabilityOfBow + 100)));
+
+    public static final RegistryObject<Item> DIAMOND_BOW = ITEMS.register("diamond_bow",
+            () -> new CopperBow(new Item.Properties().durability(durabilityOfBow + 200)));
+
+    public static final RegistryObject<Item> NETHERITE_BOW = ITEMS.register("netherite_bow",
+            () -> new CopperBow(new Item.Properties().durability(durabilityOfBow + 350)));
+
 
 
 

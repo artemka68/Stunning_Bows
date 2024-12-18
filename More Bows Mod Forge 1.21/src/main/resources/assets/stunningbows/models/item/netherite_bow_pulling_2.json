@@ -1,0 +1,6 @@
+{
+  "parent": "stunningbows:item/netherite_bow",
+  "textures": {
+    "layer0": "stunningbows:item/netherite_bow_pulling_2"
+  }
+}

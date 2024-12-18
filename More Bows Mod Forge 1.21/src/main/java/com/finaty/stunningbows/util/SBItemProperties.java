@@ -12,6 +12,9 @@ public class SBItemProperties {
         makeBow(SBItems.BONE_BOW.get());
         makeBow(SBItems.COPPER_BOW.get());
         makeBow(SBItems.GOLDEN_BOW.get());
+        makeBow(SBItems.IRON_BOW.get());
+        makeBow(SBItems.DIAMOND_BOW.get());
+        makeBow(SBItems.NETHERITE_BOW.get());
     }
 
     private static void makeBow(Item item) {

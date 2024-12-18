@@ -1,0 +1,6 @@
+{
+  "parent": "stunningbows:item/iron_bow",
+  "textures": {
+    "layer0": "stunningbows:item/iron_bow_pulling_1"
+  }
+}
