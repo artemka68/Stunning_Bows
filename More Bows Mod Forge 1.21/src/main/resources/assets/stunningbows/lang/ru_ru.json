@@ -7,6 +7,12 @@
   "item.stunningbows.diamond_bow": "Алмазный Лук",
   "item.stunningbows.netherite_bow": "Незеритовый Лук",
 
+  "item.stunningbows.copper_string": "Медная нить",
+  "item.stunningbows.golden_string": "Золотая нить",
+  "item.stunningbows.iron_string": "Железная нить",
+  "item.stunningbows.diamond_string": "Алмазная нить",
+  "item.stunningbows.netherite_string": "Незеритовая нить",
+
 
   "creativetab.stunningbows.stunningbows": "Невероятные Луки"
 }

@@ -19,7 +19,7 @@ public class SBItems {
 
 
 
-    //List of items
+    //List of bows
     public static final RegistryObject<Item> NETHER_BOW = ITEMS.register("nether_bow",
             () -> new NetherBow(new Item.Properties().durability(durabilityOfBow)));
 
@@ -40,6 +40,25 @@ public class SBItems {
 
     public static final RegistryObject<Item> NETHERITE_BOW = ITEMS.register("netherite_bow",
             () -> new CopperBow(new Item.Properties().durability(durabilityOfBow + 350)));
+
+
+    //List of items
+
+    public static final RegistryObject<Item> COPPER_STRING = ITEMS.register("copper_string",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> GOLDEN_STRING = ITEMS.register("golden_string",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> IRON_STRING = ITEMS.register("iron_string",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> DIAMOND_STRING = ITEMS.register("diamond_string",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> NETHERITE_STRING = ITEMS.register("netherite_string",
+            () -> new Item(new Item.Properties()));
+
 
 
 

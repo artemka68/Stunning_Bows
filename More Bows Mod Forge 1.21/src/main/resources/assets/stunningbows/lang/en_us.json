@@ -7,6 +7,12 @@
   "item.stunningbows.diamond_bow": "Diamond Bow",
   "item.stunningbows.netherite_bow": "Netherite Bow",
 
+  "item.stunningbows.copper_string": "Copper String",
+  "item.stunningbows.golden_string": "Golden String",
+  "item.stunningbows.iron_string": "Iron String",
+  "item.stunningbows.diamond_string": "Diamond String",
+  "item.stunningbows.netherite_string": "Netherite String",
+
 
   "creativetab.stunningbows.stunningbows": "Stunning Bows"
 
