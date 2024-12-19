@@ -42,8 +42,7 @@ public class SBItems {
             () -> new CopperBow(new Item.Properties().durability(durabilityOfBow + 350)));
 
 
-    //List of items
-
+    //List of strings
     public static final RegistryObject<Item> COPPER_STRING = ITEMS.register("copper_string",
             () -> new Item(new Item.Properties()));
 
@@ -58,6 +57,18 @@ public class SBItems {
 
     public static final RegistryObject<Item> NETHERITE_STRING = ITEMS.register("netherite_string",
             () -> new Item(new Item.Properties()));
+
+
+    //List of nuggets
+    public static final RegistryObject<Item> COPPER_NUGGET = ITEMS.register("copper_nugget",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> DIAMOND_NUGGET = ITEMS.register("diamond_nugget",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> NETHERITE_NUGGET = ITEMS.register("netherite_nugget",
+            () -> new Item(new Item.Properties()));
+
 
 
 

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "stunningbows:copper_nugget"
+    },
+    "X": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "X#",
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "stunningbows:copper_string"
+  }
+}

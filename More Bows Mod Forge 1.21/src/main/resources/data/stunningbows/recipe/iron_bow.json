@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "&": {
+      "item": "stunningbows:iron_string"
+    },
+    "X": {
+      "item": "minecraft:bow"
+    }
+  },
+  "pattern": [
+    "&#&",
+    "#X#",
+    "&#&"
+  ],
+  "result": {
+    "count": 1,
+    "id": "stunningbows:iron_bow"
+  }
+}

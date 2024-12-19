@@ -13,6 +13,10 @@
   "item.stunningbows.diamond_string": "Алмазная нить",
   "item.stunningbows.netherite_string": "Незеритовая нить",
 
+  "item.stunningbows.copper_nugget": "Медный самородок",
+  "item.stunningbows.diamond_nugget": "Алмазный самородок",
+  "item.stunningbows.netherite_nugget": "Незеритовый самородок",
+
 
   "creativetab.stunningbows.stunningbows": "Невероятные Луки"
 }

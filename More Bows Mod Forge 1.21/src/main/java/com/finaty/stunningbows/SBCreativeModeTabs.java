@@ -37,6 +37,10 @@ public class SBCreativeModeTabs {
                 output.accept(SBItems.IRON_STRING.get());
                 output.accept(SBItems.DIAMOND_STRING.get());
                 output.accept(SBItems.NETHERITE_STRING.get());
+
+                output.accept(SBItems.COPPER_NUGGET.get());
+                output.accept(SBItems.DIAMOND_NUGGET.get());
+                output.accept(SBItems.NETHERITE_NUGGET.get());
             }).build());
 
 

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "&": {
+      "item": "stunningbows:netherite_string"
+    },
+    "X": {
+      "item": "minecraft:bow"
+    }
+  },
+  "pattern": [
+    "X#",
+    "#&"
+  ],
+  "result": {
+    "count": 1,
+    "id": "stunningbows:netherite_bow"
+  }
+}
