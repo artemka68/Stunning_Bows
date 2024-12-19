@@ -1,9 +1,7 @@
 package com.finaty.stunningbows.item;
 
 import com.finaty.stunningbows.StunningBows;
-import com.finaty.stunningbows.custom.BoneBow;
-import com.finaty.stunningbows.custom.CopperBow;
-import com.finaty.stunningbows.custom.NetherBow;
+import com.finaty.stunningbows.custom.*;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -30,16 +28,16 @@ public class SBItems {
             () -> new CopperBow(new Item.Properties().durability(durabilityOfBow + 50)));
 
     public static final RegistryObject<Item> GOLDEN_BOW = ITEMS.register("golden_bow",
-            () -> new CopperBow(new Item.Properties().durability(durabilityOfBow + 50)));
+            () -> new GoldenBow(new Item.Properties().durability(durabilityOfBow + 50)));
 
     public static final RegistryObject<Item> IRON_BOW = ITEMS.register("iron_bow",
-            () -> new CopperBow(new Item.Properties().durability(durabilityOfBow + 100)));
+            () -> new IronBow(new Item.Properties().durability(durabilityOfBow + 100)));
 
     public static final RegistryObject<Item> DIAMOND_BOW = ITEMS.register("diamond_bow",
-            () -> new CopperBow(new Item.Properties().durability(durabilityOfBow + 200)));
+            () -> new DiamondBow(new Item.Properties().durability(durabilityOfBow + 200)));
 
     public static final RegistryObject<Item> NETHERITE_BOW = ITEMS.register("netherite_bow",
-            () -> new CopperBow(new Item.Properties().durability(durabilityOfBow + 350)));
+            () -> new NetheriteBow(new Item.Properties().durability(durabilityOfBow + 350)));
 
 
     //List of strings
