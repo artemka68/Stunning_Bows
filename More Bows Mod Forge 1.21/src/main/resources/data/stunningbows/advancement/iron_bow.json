@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "stunningbows:iron_bow"
+    },
+    "title": "Iron Bow",
+    "description": "Create an Iron Bow",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "stunningbows:copper_bow",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stunningbows:iron_bow"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

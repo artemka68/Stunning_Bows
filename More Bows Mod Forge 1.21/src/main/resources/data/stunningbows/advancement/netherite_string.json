@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "stunningbows:netherite_string"
+    },
+    "title": "Netherite String",
+    "description": "Create a Netherite String",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "stunningbows:diamond_bow",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stunningbows:netherite_string"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

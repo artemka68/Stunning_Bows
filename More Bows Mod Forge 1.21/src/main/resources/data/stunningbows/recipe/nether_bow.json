@@ -3,21 +3,22 @@
   "category": "equipment",
   "key": {
     "#": {
-      "item": "minecraft:netherite_ingot"
+      "item": "minecraft:gold_ingot"
     },
     "&": {
-      "item": "stunningbows:netherite_string"
+      "item": "stunningbows:golden_string"
     },
     "X": {
-      "item": "stunningbows:diamond_bow"
+      "item": "minecraft:bow"
     }
   },
   "pattern": [
-    "X#",
-    "#&"
+    "&#&",
+    "#X#",
+    "&#&"
   ],
   "result": {
     "count": 1,
-    "id": "stunningbows:netherite_bow"
+    "id": "stunningbows:golden_bow"
   }
 }

@@ -1,4 +1,4 @@
-package com.finaty.stunningbows.custom;
+package com.finaty.stunningbows.core.custom;
 
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvents;
@@ -13,11 +13,11 @@ import net.minecraft.world.level.Level;
 
 import java.util.List;
 
-public class NetheriteBow extends BowItem {
+public class GoldenBow extends BowItem {
     public static final int MAX_DRAW_DURATION = 20;
     public static final int DEFAULT_RANGE = 15;
 
-    public NetheriteBow(Item.Properties pProperties) {
+    public GoldenBow(Item.Properties pProperties) {
         super(pProperties);
     }
 
@@ -34,7 +34,7 @@ public class NetheriteBow extends BowItem {
                 if (!((double)f < 0.1)) {
                     List<ItemStack> list = draw(pStack, itemstack, player);
                     if (pLevel instanceof ServerLevel serverlevel && !list.isEmpty()) {
-                        this.shoot(serverlevel, player, player.getUsedItemHand(), pStack, list, f * 3.0F, 1.0F, f == 1.0F, null);
+                        this.shoot(serverlevel, player, player.getUsedItemHand(), pStack, list, f * 3.30F, 1.0F, f == 1.0F, null);
                     }
 
                     pLevel.playSound(
@@ -51,5 +51,15 @@ public class NetheriteBow extends BowItem {
                 }
             }
         }
+    }
+
+    public static float getPowerForTime(int pCharge) {
+        float f = (float)pCharge / 18.5F;
+        f = (f * f + f * 3.25F) / 2.5F;
+        if (f > 1.0F) {
+            f = 1.0F;
+        }
+
+        return f;
     }
 }

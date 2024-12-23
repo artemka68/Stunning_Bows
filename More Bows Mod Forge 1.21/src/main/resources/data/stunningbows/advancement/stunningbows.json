@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "stunningbows:bone_bow",
+      "count": 1
+    },
+    "title": "Bone Bow",
+    "description": "Create a Bone Bow",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "background": "minecraft:textures/block/diamond_block.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stunningbows:bone_bow"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "stunningbows:copper_bow"
+    },
+    "title": "New One!",
+    "description": "Create a Copper Bow",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "stunningbows:stunningbows",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stunningbows:copper_bow"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

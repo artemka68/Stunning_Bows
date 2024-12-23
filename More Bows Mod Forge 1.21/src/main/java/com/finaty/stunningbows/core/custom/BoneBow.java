@@ -1,4 +1,4 @@
-package com.finaty.stunningbows.custom;
+package com.finaty.stunningbows.core.custom;
 
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvents;
@@ -10,13 +10,14 @@ import net.minecraft.world.item.BowItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
+
 import java.util.List;
 
-public class NetherBow extends BowItem {
+public class BoneBow extends BowItem {
     public static final int MAX_DRAW_DURATION = 20;
     public static final int DEFAULT_RANGE = 15;
 
-    public NetherBow(Item.Properties pProperties) {
+    public BoneBow(Item.Properties pProperties) {
         super(pProperties);
     }
 
@@ -52,5 +53,13 @@ public class NetherBow extends BowItem {
         }
     }
 
-}
+    public static float getPowerForTime(int pCharge) {
+        float f = (float)pCharge / 20.0F;
+        f = (f * f + f * 2.2F) / 3.0F;
+        if (f > 1.0F) {
+            f = 1.0F;
+        }
 
+        return f;
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "stunningbows:netherite_bow"
+    },
+    "title": "Netherite Bow",
+    "description": "Create the best bow in Minecraft!",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "stunningbows:diamond_bow",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stunningbows:netherite_bow"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "stunningbows:diamond_bow"
+    },
+    "title": "Getting Stronger",
+    "description": "Create a Diamond Bow",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "stunningbows:iron_bow",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stunningbows:diamond_bow"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
