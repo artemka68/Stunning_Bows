@@ -55,7 +55,7 @@ public class IronBow extends BowItem {
 
     public static float getPowerForTime(int pCharge) {
         float f = (float)pCharge / 20.0F;
-        f = (f * f + f * 3.0F) / 2.25F;
+        f = (f * f + f * 3.1F) / 2.5F;
         if (f > 1.0F) {
             f = 1.0F;
         }

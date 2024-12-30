@@ -16,6 +16,7 @@ public class SBItemProperties {
         makeFastBow(SBItems.DIAMOND_BOW.get());
 
         makeFastestBow(SBItems.NETHERITE_BOW.get());
+        makeFastestBow(SBItems.STUNNING_BOW.get());
     }
 
 

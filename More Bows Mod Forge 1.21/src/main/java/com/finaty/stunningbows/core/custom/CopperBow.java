@@ -55,7 +55,7 @@ public class CopperBow extends BowItem {
 
     public static float getPowerForTime(int pCharge) {
         float f = (float)pCharge / 20.0F;
-        f = (f * f + f * 2.5F) / 2.2F;
+        f = (f * f + f * 2.5F) / 2.75F;
         if (f > 1.0F) {
             f = 1.0F;
         }

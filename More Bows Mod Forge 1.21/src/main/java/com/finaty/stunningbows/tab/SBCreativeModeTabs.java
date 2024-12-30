@@ -31,6 +31,7 @@ public class SBCreativeModeTabs {
                 output.accept(SBItems.IRON_BOW.get());
                 output.accept(SBItems.DIAMOND_BOW.get());
                 output.accept(SBItems.NETHERITE_BOW.get());
+                output.accept(SBItems.STUNNING_BOW.get());
                 output.accept(SBItems.NETHER_BOW.get());
 
                 output.accept(SBItems.COPPER_STRING.get());

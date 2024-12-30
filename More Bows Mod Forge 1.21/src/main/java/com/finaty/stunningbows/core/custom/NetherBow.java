@@ -33,7 +33,7 @@ public class NetherBow extends BowItem {
                 if (!((double)f < 0.1)) {
                     List<ItemStack> list = draw(pStack, itemstack, player);
                     if (pLevel instanceof ServerLevel serverlevel && !list.isEmpty()) {
-                        this.shoot(serverlevel, player, player.getUsedItemHand(), pStack, list, f * 3.0F, 1.0F, f == 1.0F, null );
+                        this.shoot(serverlevel, player, player.getUsedItemHand(), pStack, list, f * 3.23F, 1.0F, f == 1.0F, null );
                     }
 
                     pLevel.playSound(
@@ -54,7 +54,7 @@ public class NetherBow extends BowItem {
 
     public static float getPowerForTime(int pCharge) {
         float f = (float)pCharge / 20.0F;
-        f = (f * f + f * 2.0F) / 3.0F;
+        f = (f * f + f * 2.7F) / 2.5F;
         if (f > 1.0F) {
             f = 1.0F;
         }

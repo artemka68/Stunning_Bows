@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "!": {
+      "item": "stunningbows:bone_bow"
+    },
+    "@": {
+      "item": "stunningbows:copper_bow"
+    },
+    "#": {
+      "item": "stunningbows:golden_bow"
+    },
+
+    "$": {
+      "item": "stunningbows:iron_bow"
+    },
+    "%": {
+      "item": "stunningbows:nether_bow"
+    },
+    "^": {
+      "item": "stunningbows:diamond_bow"
+    },
+
+    "&": {
+      "item": "stunningbows:netherite_bow"
+    },
+    "*": {
+      "item": "minecraft:bow"
+    },
+    "(": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "pattern": [
+    "*!@",
+    "#($",
+    "%^&"
+  ],
+  "result": {
+    "count": 1,
+    "id": "stunningbows:stunning_bow"
+  }
+}

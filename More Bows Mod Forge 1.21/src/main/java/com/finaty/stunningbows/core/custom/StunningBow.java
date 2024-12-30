@@ -13,11 +13,11 @@ import net.minecraft.world.level.Level;
 
 import java.util.List;
 
-public class BoneBow extends BowItem {
+public class StunningBow extends BowItem {
     public static final int MAX_DRAW_DURATION = 20;
     public static final int DEFAULT_RANGE = 15;
 
-    public BoneBow(Item.Properties pProperties) {
+    public StunningBow(Item.Properties pProperties) {
         super(pProperties);
     }
 
@@ -34,7 +34,7 @@ public class BoneBow extends BowItem {
                 if (!((double)f < 0.1)) {
                     List<ItemStack> list = draw(pStack, itemstack, player);
                     if (pLevel instanceof ServerLevel serverlevel && !list.isEmpty()) {
-                        this.shoot(serverlevel, player, player.getUsedItemHand(), pStack, list, f * 3.0F, 1.0F, f == 1.0F, null );
+                        this.shoot(serverlevel, player, player.getUsedItemHand(), pStack, list, f * 3.65F, 1.0F, f == 1.0F, null);
                     }
 
                     pLevel.playSound(
@@ -54,8 +54,8 @@ public class BoneBow extends BowItem {
     }
 
     public static float getPowerForTime(int pCharge) {
-        float f = (float)pCharge / 20.0F;
-        f = (f * f + f * 2.2F) / 2.9F;
+        float f = (float)pCharge / 14.5F;
+        f = (f * f + f * 4.5F) / 2.0F; // f * 2.0F) / 3.0F
         if (f > 1.0F) {
             f = 1.0F;
         }

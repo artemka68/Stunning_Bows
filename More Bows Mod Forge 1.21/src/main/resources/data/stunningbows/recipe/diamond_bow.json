@@ -9,7 +9,7 @@
       "item": "stunningbows:diamond_string"
     },
     "X": {
-      "item": "minecraft:bow"
+      "item": "stunningbows:iron_bow"
     }
   },
   "pattern": [

@@ -34,7 +34,7 @@ public class GoldenBow extends BowItem {
                 if (!((double)f < 0.1)) {
                     List<ItemStack> list = draw(pStack, itemstack, player);
                     if (pLevel instanceof ServerLevel serverlevel && !list.isEmpty()) {
-                        this.shoot(serverlevel, player, player.getUsedItemHand(), pStack, list, f * 3.30F, 1.0F, f == 1.0F, null);
+                        this.shoot(serverlevel, player, player.getUsedItemHand(), pStack, list, f * 3.35F, 1.0F, f == 1.0F, null);
                     }
 
                     pLevel.playSound(

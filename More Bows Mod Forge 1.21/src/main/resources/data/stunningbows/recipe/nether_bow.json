@@ -3,22 +3,25 @@
   "category": "equipment",
   "key": {
     "#": {
-      "item": "minecraft:gold_ingot"
+      "item": "minecraft:nether_brick"
     },
     "&": {
-      "item": "stunningbows:golden_string"
+      "item": "minecraft:nether_wart"
     },
     "X": {
       "item": "minecraft:bow"
+    },
+    "!": {
+      "item": "minecraft:blaze_rod"
     }
   },
   "pattern": [
-    "&#&",
-    "#X#",
-    "&#&"
+    "#!#",
+    "&X&",
+    "#!#"
   ],
   "result": {
     "count": 1,
-    "id": "stunningbows:golden_bow"
+    "id": "stunningbows:nether_bow"
   }
 }
