@@ -21,7 +21,7 @@ public class SBCreativeModeTabs {
     public static final RegistryObject<CreativeModeTab> STUNNINGBOWS_TAB = CREATIVE_MODE_TABS.register("stunningbows_tab",
             () -> CreativeModeTab.builder()
             .withTabsBefore(CreativeModeTabs.COMBAT)
-            .icon(() -> SBItems.NETHERITE_BOW.get().getDefaultInstance())
+            .icon(() -> SBItems.STUNNING_BOW.get().getDefaultInstance())
             .title(Component.translatable("creativetab.stunningbows.stunningbows"))
             .displayItems((parameters, output) -> {
                 // Add the example item to the tab. For your own tabs, this method is preferred over the event
@@ -29,10 +29,11 @@ public class SBCreativeModeTabs {
                 output.accept(SBItems.COPPER_BOW.get());
                 output.accept(SBItems.GOLDEN_BOW.get());
                 output.accept(SBItems.IRON_BOW.get());
+                output.accept(SBItems.NETHER_BOW.get());
                 output.accept(SBItems.DIAMOND_BOW.get());
                 output.accept(SBItems.NETHERITE_BOW.get());
                 output.accept(SBItems.STUNNING_BOW.get());
-                output.accept(SBItems.NETHER_BOW.get());
+
 
                 output.accept(SBItems.COPPER_STRING.get());
                 output.accept(SBItems.GOLDEN_STRING.get());

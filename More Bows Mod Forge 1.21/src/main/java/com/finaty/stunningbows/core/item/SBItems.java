@@ -41,7 +41,7 @@ public class SBItems {
             () -> new NetheriteBow(new Item.Properties().durability(BOW_DURABILITY + 866))); // 1250
 
     public static final RegistryObject<Item> STUNNING_BOW = ITEMS.register("stunning_bow",
-            () -> new NetheriteBow(new Item.Properties().durability(BOW_DURABILITY + 2116))); // 2250
+            () -> new NetheriteBow(new Item.Properties().durability(BOW_DURABILITY + 3116))); // 3500
 
 
     //List of strings
